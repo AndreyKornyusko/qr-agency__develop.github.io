@@ -1,0 +1,45 @@
+.comunications {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: $treb;
+
+  &__title {
+    font-size: 1.43rem;
+    font-family: $treb-b;
+    margin-top: 2.75rem;
+    color: #9c3133;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: .5rem 7rem;
+    border-top: 2px solid #fb7c13;
+    border-bottom: 2px solid #fb7c13;
+  }
+
+  &__info {
+    width: 100%;
+    margin-top: 2.75rem;
+    min-height: 29rem;
+    background: url("../img/middle-photo.png") center bottom no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+
+    &-inner {
+      width: 50%;
+      height: 29.2rem;
+      background-color: rgba(#fff, .7);
+      padding: 1rem 0 2rem 1.75rem;
+    }
+
+    &-text {
+      display: inline-block;
+      color: #10206e;
+      white-space: pre-line;
+      max-width: 29rem;
+      font-size: 1.18rem;
+    }
+  }
+}

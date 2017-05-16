@@ -1,0 +1,85 @@
+.search-problem {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+  min-height: 30rem;
+  background: url("../img/Path 31.png") center top no-repeat;
+  background-size: cover;
+  border-top: .56rem solid #960c0c;
+
+  &__title {
+    font-size: 1.46rem;
+    margin-top: 1.56rem;
+    color: #9c3133;
+    text-transform: uppercase;
+    padding: .5rem 0;
+    border-top: 2px solid #fb7c13;
+    border-bottom: 2px solid #fb7c13;
+  }
+
+  &__list {
+    margin-top: 1.6rem;
+    max-width: 63rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  &__text {
+    padding-left: .6rem;
+    max-width: 23rem;
+    text-align: left;
+    color: #041568;
+  }
+
+  &__item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    min-width: 28rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__ico {
+    display: inline-block;
+    width: 120px;
+  }
+
+  &__ico--1 {
+    height: 44px;
+    background: url("../img/motivacia.png") center top no-repeat;
+  }
+
+  &__ico--2 {
+    height: 62px;
+    background: url("../img/5.png") no-repeat;
+    background-position: 35px 0px;
+  }
+
+  &__ico--3 {
+    height: 69px;
+    background: url("../img/2.png") center top no-repeat;
+  }
+
+  &__ico--4 {
+    height: 61px;
+    background: url("../img/6.png") center top no-repeat;
+  }
+
+  &__ico--5 {
+    height: 55px;
+    background: url("../img/3.png") center top no-repeat;
+  }
+
+  &__ico--6 {
+    height: 75px;
+    background: url("../img/7.png") center top no-repeat;
+  }
+
+  &__ico--7 {
+    height: 71px;
+    background: url("../img/4.png") center top no-repeat;
+  }
+
+}

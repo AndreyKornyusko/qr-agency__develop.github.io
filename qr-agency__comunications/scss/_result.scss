@@ -1,0 +1,101 @@
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    font-size: 1.43rem;
+    font-family: $treb-b;
+    margin-top: 2.75rem;
+    color: #9c3133;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: .5rem 4rem;
+    border-top: 2px solid #fb7c13;
+    border-bottom: 2px solid #fb7c13;
+  }
+
+  &__list {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    max-width: 66rem;
+  }
+
+  &__item {
+    margin: 5.5rem .5rem 0 0;
+    width: 255px;
+    height: 231px;
+    border-bottom: 2px solid #960c0c;
+    border-right: 2px solid #960c0c;
+    border-left: 2px solid #960c0c;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      left: -3px;
+      top: 0;
+      border: 129px solid transparent;
+      border-top: 35px solid #960c0c;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: -3px;
+      top: -2px;
+      border: 129px solid transparent;
+      border-top: 35px solid white;
+      z-index: 1;
+    }
+
+    &-text {
+      display: inline-block;
+      z-index: 2;
+      padding: 1rem;
+      margin-top: 2rem;
+      color: #041568;
+      width: 100%;
+      height: 85%;
+      position: relative;
+
+      &:after {
+        content: '';
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        background: url("../img/Group 999.png") center center no-repeat;
+        position: absolute;
+        bottom: .03rem;
+        right: .2rem;
+      }
+    }
+
+    &-title {
+      font-size: 3rem;
+      position: absolute;
+      top: -62px;
+      left: -2px;
+      text-align: center;
+      width: 255px;
+      height: 58px;
+      color: #fff;
+      padding-top: .7rem;
+      background: #960c0c;
+
+      &:after {
+        content: '';
+        position: absolute;
+        left: -1px;
+        bottom: -164px;
+        border: 129px solid transparent;
+        border-top: 35px solid #960c0c;
+        z-index: 1;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,89 @@
+.key-products-slider {
+  font-family: $treb-b;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 1rem;
+
+  &__list {
+    margin: 3rem 0 3rem;
+    display: flex;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 2.7rem;
+      height: 4.5rem;
+      margin-right: 2.75rem;
+      margin-top: 5rem;
+      background: url("../img/arrow-left.png") 0 0 no-repeat;
+      cursor: pointer;
+    }
+
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 2.7rem;
+      height: 4.5rem;
+      margin-top: 5rem;
+      background: url("../img/arrow-right.png") 0 0 no-repeat;
+      cursor: pointer;
+    }
+  }
+
+  &__title {
+    margin-top: 2.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #9d1c1c;
+    line-height: 2.75rem;
+    padding: 0 4rem;
+    border-bottom: 2px solid #fb7c13;
+    border-top: 2px solid #fb7c13;
+    font-size: 1.43rem;
+    font-weight: 300;
+  }
+}
+
+.products-slide {
+  margin-right: 1.25rem;
+  max-width: 12.6rem;
+
+  &:last-child {
+    margin-right: 2.75rem;
+  }
+
+  &__title {
+    text-align: center;
+    color: #000;
+    font-size: 1.06rem;
+    white-space: pre-line;
+    color: #960c0c;
+    width: 100%;
+    display: inline-block;
+  }
+
+  &__img {
+    display: inline-block;
+    width: 12.6rem;
+    height: 12.6rem;
+
+    &--1 {
+      background: url("../img/Rectangle 807.png") center center no-repeat;
+    }
+
+    &--2 {
+      background: url("../img/Rectangle 808.png") center center no-repeat;
+    }
+
+    &--3 {
+      background: url("../img/Rectangle 809.png") center center no-repeat;
+    }
+
+    &--4 {
+      background: url("../img/Rectangle 810.png") center center no-repeat;
+    }
+  }
+}
