@@ -1,0 +1,160 @@
+.substrate-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: .375rem solid #fb7c13;
+  position: relative;
+  padding-bottom: 7.25rem;
+
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 317px;
+    height: 29px;
+    background: url("../img/Group 1679.png") center center no-repeat;
+    position: absolute;
+    bottom: -1.3rem;
+    left: 15%;
+  }
+
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 417px;
+    height: 29px;
+    background: url("../img/bottom-lines.png") center center no-repeat;
+    position: absolute;
+    bottom: -.1rem;
+    right: 10%;
+  }
+}
+
+.news {
+  max-width: 63rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: $treb;
+
+  &__title {
+    margin-top: 3.1rem;
+    color: #960c0c;
+    font-size: 1.85rem;
+    font-family: $treb-b;
+  }
+
+  &__content {
+    margin-top: 2.5rem;
+  }
+
+  &__similar {
+    margin-top: 4.25rem;
+  }
+}
+
+.news-content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+  &__bg {
+    display: inline-block;
+    background: url("../img/Rectangle 649.png") center center no-repeat;
+    width: 100%;
+    height: 25.5rem;
+  }
+
+  &__text {
+    max-width: 89%;
+    color: #041568;
+    white-space: pre-line;
+    margin-top: .8rem;
+    font-size: .87rem;
+  }
+
+  &__publ-date {
+    color: #041568;
+    align-self: flex-end;
+    margin-top: 3.4rem;
+    font-size: .87rem;
+  }
+}
+
+.similar-publ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  &__title {
+    color: #960c0c;
+    font-size: 1.5rem;
+    font-family: $treb-b;
+  }
+
+  &__list {
+    margin-top: 3.75rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 14rem;
+
+    &--1 {
+      .item-ico {
+        display: inline-block;
+        width: 100%;
+        height: 8.7rem;
+        background: url("../img/Rectangle 650.png") center center no-repeat;
+      }
+    }
+    &--2 {
+      .item-ico {
+        display: inline-block;
+        width: 100%;
+        height: 8.7rem;
+        background: url("../img/Rectangle 660.png") center center no-repeat;
+      }
+    }
+    &--3 {
+      .item-ico {
+        display: inline-block;
+        width: 100%;
+        height: 8.7rem;
+        background: url("../img/Rectangle 661.png") center center no-repeat;
+      }
+    }
+    &--4 {
+      .item-ico {
+        display: inline-block;
+        width: 100%;
+        height: 8.7rem;
+        background: url("../img/Rectangle 662.png") center center no-repeat;
+      }
+    }
+
+    .item-title {
+      display: inline-block;
+      width: 100%;
+      color: #fb7e16;
+      margin-top: 1.2rem;
+      font-size: 1.126rem;
+    }
+
+    .item-text {
+      display: inline-block;
+      width: 100%;
+      color: #041568;
+      margin-top: .8rem;
+      font-size: .85rem;
+    }
+  }
+}
