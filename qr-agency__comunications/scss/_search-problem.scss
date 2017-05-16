@@ -7,9 +7,12 @@
   background: url("../img/Path 31.png") center top no-repeat;
   background-size: cover;
   border-top: .56rem solid #960c0c;
+  font-family: $treb;
+  font-size: 1rem;
 
   &__title {
-    font-size: 1.46rem;
+    font-size: 1.3rem;
+    font-family: $treb-b;
     margin-top: 1.56rem;
     color: #9c3133;
     text-transform: uppercase;

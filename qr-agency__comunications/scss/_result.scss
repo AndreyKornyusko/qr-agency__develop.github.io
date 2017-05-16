@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: $treb;
 
   &__title {
     font-size: 1.43rem;
@@ -22,6 +23,8 @@
     align-items: center;
     flex-flow: row wrap;
     max-width: 66rem;
+    font-size: 1.125rem;
+    text-align: center;
   }
 
   &__item {
@@ -75,9 +78,9 @@
     }
 
     &-title {
-      font-size: 3rem;
+      font-size: 2.5rem;
       position: absolute;
-      top: -62px;
+      top: -60px;
       left: -2px;
       text-align: center;
       width: 255px;
@@ -90,7 +93,7 @@
         content: '';
         position: absolute;
         left: -1px;
-        bottom: -164px;
+        bottom: -162px;
         border: 129px solid transparent;
         border-top: 35px solid #960c0c;
         z-index: 1;

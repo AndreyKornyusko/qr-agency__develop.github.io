@@ -303,10 +303,13 @@ html, body {
   background: url("../img/Path 31.png") center top no-repeat;
   background-size: cover;
   border-top: .56rem solid #960c0c;
+  font-family: "Trebuchet-regular";
+  font-size: 1rem;
 }
 
 .search-problem__title {
-  font-size: 1.46rem;
+  font-size: 1.3rem;
+  font-family: "Trebuchet-bold";
   margin-top: 1.56rem;
   color: #9c3133;
   text-transform: uppercase;
@@ -383,6 +386,7 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Trebuchet-regular";
 }
 
 .result__title {
@@ -404,6 +408,8 @@ html, body {
   align-items: center;
   flex-flow: row wrap;
   max-width: 66rem;
+  font-size: 1.125rem;
+  text-align: center;
 }
 
 .result__item {
@@ -458,9 +464,9 @@ html, body {
 }
 
 .result__item-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   position: absolute;
-  top: -62px;
+  top: -60px;
   left: -2px;
   text-align: center;
   width: 255px;
@@ -474,7 +480,7 @@ html, body {
   content: '';
   position: absolute;
   left: -1px;
-  bottom: -164px;
+  bottom: -162px;
   border: 129px solid transparent;
   border-top: 35px solid #960c0c;
   z-index: 1;
