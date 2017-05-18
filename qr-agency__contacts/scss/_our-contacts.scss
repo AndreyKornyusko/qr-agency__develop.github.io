@@ -1,0 +1,28 @@
+.our-contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $treb;
+  height: 60rem;
+
+  &__title {
+    margin-top: 2.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #9d1c1c;
+    padding: .5rem 5rem;
+    border-bottom: 2px solid #fb7c13;
+    border-top: 2px solid #fb7c13;
+    font-size: 1.43rem;
+    font-family: $treb-b;
+    font-weight: 300;
+  }
+
+  &__text {
+    margin-top: 5.25rem;
+    color: #041568;
+    font-size: 1.6rem;
+    max-width: 57rem;
+    text-align: center;
+  }
+}
