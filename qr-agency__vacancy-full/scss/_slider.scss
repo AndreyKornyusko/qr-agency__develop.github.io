@@ -1,0 +1,14 @@
+.photo-slider {
+  min-width: 100%;
+  position: relative;
+}
+
+.photo-slide {
+  background: url("../img/Rectangle 1194.png") top center no-repeat;
+  background-size: cover;
+  min-height: 13.4rem;
+  border-top: .35rem solid #fb7c13;
+  border-bottom: .35rem solid #960c0c;
+  text-align: center;
+  position: relative;
+}
