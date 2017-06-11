@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+.qr-agency-drop__list, .qr-news-drop__list {
+  font-family: "Trebuchet-regular";
+  font-size: .75rem;
+  display: flex;
+  flex-direction: column;
+  width: 17.8rem;
+  border: 1px solid #5c2914;
+  padding: 1.1rem;
+  position: relative;
+}
+
+.qr-agency-drop__list:after, .qr-news-drop__list:after {
+  content: '';
+  display: inline-block;
+  background: url("../img/Group 728.png") no-repeat;
+  background-size: contain;
+  width: 5.1rem;
+  height: 5.1rem;
+  position: absolute;
+  bottom: .15rem;
+  right: .12rem;
+  z-index: 1;
+}
+
+.qr-agency-drop__list:before, .qr-news-drop__list:before {
+  content: '';
+  display: inline-block;
+  background: url("../img/Group 718.png") no-repeat;
+  background-size: contain;
+  width: 5.1rem;
+  height: 5.1rem;
+  position: absolute;
+  top: .15rem;
+  left: .12rem;
+  z-index: 2;
+}
+
+.qr-agency-drop__link, .qr-news-drop__link {
+  color: #000105;
+  display: block;
+  line-height: 1.5rem;
+  padding-left: .5rem;
+  border-bottom: 2px solid #fafafa;
+}
+
+.qr-agency-drop__link:hover, .qr-news-drop__link:hover {
+  background-color: #a63f38;
+  color: #fff;
+}
+
+.qr-agency-drop__item, .qr-news-drop__item {
+  z-index: 3;
+}
+
+.qr-agency-drop__item:first-child, .qr-news-drop__item:first-child {
+  border-top: 2px solid #fafafa;
+}
+
+.qr-solutions {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 42rem;
+  height: 48rem;
+  padding: 1.75rem;
+  border: 1px solid #5c2914;
+  position: relative;
+  font-family: "Trebuchet-regular";
+  font-size: .75rem;
+}
+
+.qr-solutions:after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 14.6rem;
+  height: 14.6rem;
+  background: url("../img/Group 1321@2x.png") no-repeat;
+  top: .1rem;
+  left: .1rem;
+}
+
+.qr-solutions:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 14.6rem;
+  height: 14.6rem;
+  background: url("../img/Group 1324@2x.png") no-repeat;
+  bottom: -.44rem;
+  right: -.44rem;
+}
+
+.qr-solutions .communications-drop__list, .qr-solutions .marketing-drop__list, .qr-solutions .consulting-drop__list, .qr-solutions .pr-drop__list {
+  width: 17rem;
+  height: 21rem;
+}
+
+.qr-solutions .communications-drop__title, .qr-solutions .marketing-drop__title, .qr-solutions .consulting-drop__title, .qr-solutions .pr-drop__title {
+  color: #041568;
+  margin-bottom: .43rem;
+  padding-bottom: .6rem;
+  border-bottom: 2px solid #fb7c13;
+  position: relative;
+  font-weight: 300;
+}
+
+.qr-solutions .communications-drop__title:before, .qr-solutions .marketing-drop__title:before, .qr-solutions .consulting-drop__title:before, .qr-solutions .pr-drop__title:before {
+  content: '';
+  display: inline-block;
+  background-color: #960c0c;
+  width: 3.25rem;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.qr-solutions .communications-drop__link, .qr-solutions .marketing-drop__link, .qr-solutions .consulting-drop__link, .qr-solutions .pr-drop__link {
+  display: block;
+  position: relative;
+  line-height: 1.5rem;
+  padding-left: .8rem;
+  color: #7f7f7f;
+}
+
+.qr-solutions .communications-drop__link:hover, .qr-solutions .marketing-drop__link:hover, .qr-solutions .consulting-drop__link:hover, .qr-solutions .pr-drop__link:hover {
+  background-color: #a63f38;
+  color: #fff;
+}
+
+.qr-solutions .communications-drop__link:hover:after, .qr-solutions .marketing-drop__link:hover:after, .qr-solutions .consulting-drop__link:hover:after, .qr-solutions .pr-drop__link:hover:after {
+  content: '';
+  display: none;
+}
+
+.qr-solutions .communications-drop__link:after, .qr-solutions .marketing-drop__link:after, .qr-solutions .consulting-drop__link:after, .qr-solutions .pr-drop__link:after {
+  content: '';
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  position: absolute;
+  background-color: #7f7f7f;
+  top: 42%;
+  left: 0;
+}
+
+.qr-solutions .communications-drop__item, .qr-solutions .marketing-drop__item, .qr-solutions .consulting-drop__item, .qr-solutions .pr-drop__item {
+  border-bottom: 2px solid #fafafa;
+}
+
+.qr-solutions .communications-drop__item:first-child, .qr-solutions .marketing-drop__item:first-child, .qr-solutions .consulting-drop__item:first-child, .qr-solutions .pr-drop__item:first-child {
+  border-top: 2px solid #fafafa;
+}
+
+.qr-solutions .consulting-drop__list {
+  margin-top: 2rem;
+}
+
+.qr-solutions .pr-drop__list {
+  margin-top: 2rem;
+}

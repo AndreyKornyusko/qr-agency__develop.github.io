@@ -1,0 +1,228 @@
+@import "mixins";
+@import "reset";
+
+.qr-agency-drop {
+  &__list {
+    font-family: $treb;
+    font-size: .75rem;
+    display: flex;
+    flex-direction: column;
+    width: 17.8rem;
+    border: 1px solid #5c2914;
+    padding: 1.1rem;
+    position: relative;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      background: url("../img/Group 728.png") no-repeat;
+      background-size: contain;
+      width: 5.1rem;
+      height: 5.1rem;
+      position: absolute;
+      bottom: .15rem;
+      right: .12rem;
+      z-index: 1;
+    }
+
+    &:before {
+      content: '';
+      display: inline-block;
+      background: url("../img/Group 718.png") no-repeat;
+      background-size: contain;
+      width: 5.1rem;
+      height: 5.1rem;
+      position: absolute;
+      top: .15rem;
+      left: .12rem;
+      z-index: 2;
+    }
+  }
+
+
+  &__link {
+    color: #000105;
+    display: block;
+    line-height: 1.5rem;
+    padding-left: .5rem;
+    border-bottom: 2px solid #fafafa;
+
+    &:hover {
+      background-color: #a63f38;
+      color: #fff;
+    }
+  }
+
+  &__item {
+    z-index: 3;
+    &:first-child {
+      border-top: 2px solid #fafafa;
+    }
+  }
+}
+
+.qr-news-drop {
+  &__list {
+    @extend .qr-agency-drop__list;
+  }
+  &__link {
+    @extend .qr-agency-drop__link;
+  }
+  &__item {
+    @extend .qr-agency-drop__item;
+  }
+}
+
+
+
+
+.qr-solutions {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 42rem;
+  height: 48rem;
+  padding: 1.75rem;
+  border: 1px solid #5c2914;
+  position: relative;
+  font-family: $treb;
+  font-size: .75rem;
+
+  &:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 14.6rem;
+    height: 14.6rem;
+    background: url("../img/Group 1321@2x.png") no-repeat;
+    top: .1rem;
+    left: .1rem;
+  }
+
+  &:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 14.6rem;
+    height: 14.6rem;
+    background: url("../img/Group 1324@2x.png") no-repeat;
+    bottom: -.44rem;
+    right: -.44rem;
+  }
+
+  .communications-drop__list {
+    width: 17rem;
+    height: 21rem;
+  }
+
+  .communications-drop__title {
+    color: #041568;
+    margin-bottom: .43rem;
+    padding-bottom: .6rem;
+    border-bottom: 2px solid #fb7c13;
+    position: relative;
+    font-weight: 300;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      background-color: #960c0c;
+      width: 3.25rem;
+      height: 2px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+
+  .communications-drop__link {
+    display: block;
+    position: relative;
+    line-height: 1.5rem;
+    padding-left: .8rem;
+    color: #7f7f7f;
+
+    &:hover {
+      background-color: #a63f38;
+      color: #fff;
+
+      &:after {
+        content: '';
+        display: none;
+      }
+    }
+
+    &:after {
+      content: '';
+      width: 5px;
+      height: 5px;
+      display: inline-block;
+      position: absolute;
+      background-color: #7f7f7f;
+      top: 42%;
+      left: 0;
+    }
+  }
+
+  .communications-drop__item {
+    border-bottom: 2px solid #fafafa;
+
+    &:first-child {
+      border-top: 2px solid #fafafa;
+    }
+  }
+
+  .marketing-drop__list {
+    @extend .communications-drop__list;
+  }
+
+  .marketing-drop__item {
+    @extend .communications-drop__item;
+  }
+
+  .marketing-drop__link {
+    @extend .communications-drop__link;
+  }
+
+  .marketing-drop__title {
+    @extend .communications-drop__title;
+  }
+
+
+  .consulting-drop__list {
+    margin-top: 2rem;
+    @extend .communications-drop__list;
+  }
+
+  .consulting-drop__item {
+    @extend .communications-drop__item;
+  }
+
+  .consulting-drop__link {
+    @extend .communications-drop__link;
+  }
+
+  .consulting-drop__title {
+    @extend .communications-drop__title;
+  }
+
+
+  .pr-drop__list {
+    margin-top: 2rem;
+    @extend .communications-drop__list;
+  }
+
+  .pr-drop__item {
+    @extend .communications-drop__item;
+  }
+
+  .pr-drop__link {
+    @extend .communications-drop__link;
+  }
+
+  .pr-drop__title {
+    @extend .communications-drop__title;
+  }
+
+}
