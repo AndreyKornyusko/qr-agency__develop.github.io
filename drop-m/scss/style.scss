@@ -98,6 +98,7 @@
     background: url("../img/Group 1321@2x.png") no-repeat;
     top: .1rem;
     left: .1rem;
+    z-index: 0;
   }
 
   &:before {
@@ -109,6 +110,7 @@
     background: url("../img/Group 1324@2x.png") no-repeat;
     bottom: -.44rem;
     right: -.44rem;
+    z-index: 0;
   }
 
   .communications-drop__list {
@@ -142,6 +144,7 @@
     line-height: 1.5rem;
     padding-left: .8rem;
     color: #7f7f7f;
+    z-index: 1;
 
     &:hover {
       background-color: #a63f38;

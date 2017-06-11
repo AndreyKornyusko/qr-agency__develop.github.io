@@ -94,6 +94,7 @@ html, body {
   background: url("../img/Group 1321@2x.png") no-repeat;
   top: .1rem;
   left: .1rem;
+  z-index: 0;
 }
 
 .qr-solutions:before {
@@ -105,6 +106,7 @@ html, body {
   background: url("../img/Group 1324@2x.png") no-repeat;
   bottom: -.44rem;
   right: -.44rem;
+  z-index: 0;
 }
 
 .qr-solutions .communications-drop__list, .qr-solutions .marketing-drop__list, .qr-solutions .consulting-drop__list, .qr-solutions .pr-drop__list {
@@ -138,6 +140,7 @@ html, body {
   line-height: 1.5rem;
   padding-left: .8rem;
   color: #7f7f7f;
+  z-index: 1;
 }
 
 .qr-solutions .communications-drop__link:hover, .qr-solutions .marketing-drop__link:hover, .qr-solutions .consulting-drop__link:hover, .qr-solutions .pr-drop__link:hover {
